@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1606652269006" clover="3.2.0">
+  <project timestamp="1606652269006" name="All files">
+    <metrics statements="87" coveredstatements="87" conditionals="21" coveredconditionals="21" methods="29" coveredmethods="29" elements="137" coveredelements="137" complexity="0" loc="87" ncloc="87" packages="10" files="20" classes="20"/>
+    <package name="TodoList">
+      <metrics statements="15" coveredstatements="15" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="6"/>
+      <file name="App.js" path="/home/mwibutsa/Desktop/projects/TodoList/App.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+      </file>
+      <file name="ErrorBoundary.js" path="/home/mwibutsa/Desktop/projects/TodoList/ErrorBoundary.js">
+        <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="17" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+      </file>
+      <file name="customAxios.js" path="/home/mwibutsa/Desktop/projects/TodoList/customAxios.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="TodoList.assets.icons">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="completed.png" path="/home/mwibutsa/Desktop/projects/TodoList/assets/icons/completed.png">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="4" type="stmt"/>
+      </file>
+      <file name="inprogress.png" path="/home/mwibutsa/Desktop/projects/TodoList/assets/icons/inprogress.png">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="4" type="stmt"/>
+      </file>
+      <file name="list-all.png" path="/home/mwibutsa/Desktop/projects/TodoList/assets/icons/list-all.png">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="3" type="stmt"/>
+      </file>
+      <file name="logo.png" path="/home/mwibutsa/Desktop/projects/TodoList/assets/icons/logo.png">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="3" type="stmt"/>
+      </file>
+      <file name="undone.png" path="/home/mwibutsa/Desktop/projects/TodoList/assets/icons/undone.png">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="TodoList.components.Header">
+      <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="7" coveredmethods="7"/>
+      <file name="index.js" path="/home/mwibutsa/Desktop/projects/TodoList/components/Header/index.js">
+        <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="7" coveredmethods="7"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="33" type="cond" truecount="2" falsecount="0"/>
+        <line num="14" count="60" type="stmt"/>
+        <line num="16" count="12" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="20" count="11" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="38" count="2" type="stmt"/>
+        <line num="45" count="2" type="stmt"/>
+        <line num="52" count="2" type="stmt"/>
+        <line num="58" count="3" type="stmt"/>
+      </file>
+      <file name="styles.js" path="/home/mwibutsa/Desktop/projects/TodoList/components/Header/styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="TodoList.components.TaskItem">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="index.js" path="/home/mwibutsa/Desktop/projects/TodoList/components/TaskItem/index.js">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="12" count="12" type="stmt"/>
+        <line num="17" count="12" type="stmt"/>
+        <line num="23" count="12" type="stmt"/>
+        <line num="36" count="3" type="stmt"/>
+      </file>
+      <file name="styles.js" path="/home/mwibutsa/Desktop/projects/TodoList/components/TaskItem/styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="TodoList.components.TaskStatisticCard">
+      <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="index.js" path="/home/mwibutsa/Desktop/projects/TodoList/components/TaskStatisticCard/index.js">
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="13" count="45" type="stmt"/>
+        <line num="20" count="45" type="cond" truecount="2" falsecount="0"/>
+        <line num="21" count="7" type="stmt"/>
+        <line num="26" count="45" type="stmt"/>
+        <line num="41" count="4" type="stmt"/>
+      </file>
+      <file name="styles.js" path="/home/mwibutsa/Desktop/projects/TodoList/components/TaskStatisticCard/styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="TodoList.components.TodoList">
+      <metrics statements="22" coveredstatements="22" conditionals="10" coveredconditionals="10" methods="8" coveredmethods="8"/>
+      <file name="index.js" path="/home/mwibutsa/Desktop/projects/TodoList/components/TodoList/index.js">
+        <metrics statements="21" coveredstatements="21" conditionals="10" coveredconditionals="10" methods="8" coveredmethods="8"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="11" type="stmt"/>
+        <line num="11" count="11" type="stmt"/>
+        <line num="12" count="11" type="stmt"/>
+        <line num="18" count="29" type="stmt"/>
+        <line num="21" count="11" type="stmt"/>
+        <line num="22" count="6" type="stmt"/>
+        <line num="26" count="11" type="stmt"/>
+        <line num="27" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="32" count="11" type="stmt"/>
+        <line num="33" count="4" type="stmt"/>
+        <line num="34" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="37" count="12" type="stmt"/>
+        <line num="38" count="4" type="stmt"/>
+        <line num="42" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="43" count="2" type="stmt"/>
+        <line num="50" count="9" type="stmt"/>
+        <line num="65" count="11" type="stmt"/>
+        <line num="71" count="14" type="stmt"/>
+      </file>
+      <file name="styles.js" path="/home/mwibutsa/Desktop/projects/TodoList/components/TodoList/styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="TodoList.redux">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="store.js" path="/home/mwibutsa/Desktop/projects/TodoList/redux/store.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="TodoList.redux.actionTypes">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.js" path="/home/mwibutsa/Desktop/projects/TodoList/redux/actionTypes/index.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="TodoList.redux.actions">
+      <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+      <file name="index.js" path="/home/mwibutsa/Desktop/projects/TodoList/redux/actions/index.js">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+        <line num="10" count="6" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="21" count="4" type="stmt"/>
+        <line num="28" count="6" type="stmt"/>
+        <line num="29" count="6" type="stmt"/>
+        <line num="30" count="6" type="stmt"/>
+        <line num="31" count="6" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="36" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="TodoList.redux.reducers">
+      <metrics statements="6" coveredstatements="6" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
+      <file name="index.js" path="/home/mwibutsa/Desktop/projects/TodoList/redux/reducers/index.js">
+        <metrics statements="6" coveredstatements="6" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="14" count="7" type="cond" truecount="4" falsecount="0"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="34" count="3" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

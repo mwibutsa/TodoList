@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TodoList /> Should render activity indicator 1`] = `
+<div
+  className="css-view-1dbjc4n"
+  style={
+    Object {
+      "WebkitAlignContent": "center",
+      "WebkitBoxFlex": 1,
+      "WebkitBoxPack": "center",
+      "WebkitFlexBasis": "0%",
+      "WebkitFlexGrow": 1,
+      "WebkitFlexShrink": 1,
+      "WebkitJustifyContent": "center",
+      "alignContent": "center",
+      "flexBasis": "0%",
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "justifyContent": "center",
+      "msFlexLinePack": "center",
+      "msFlexNegative": 1,
+      "msFlexPack": "center",
+      "msFlexPositive": 1,
+      "msFlexPreferredSize": "0%",
+    }
+  }
+>
+  <div
+    aria-valuemax={1}
+    aria-valuemin={0}
+    className="css-view-1dbjc4n"
+    role="progressbar"
+    style={
+      Object {
+        "WebkitAlignItems": "center",
+        "WebkitBoxAlign": "center",
+        "WebkitBoxPack": "center",
+        "WebkitJustifyContent": "center",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "msFlexAlign": "center",
+        "msFlexPack": "center",
+      }
+    }
+  >
+    <div
+      className="css-view-1dbjc4n r-animationKeyframes-127358a"
+      style={
+        Object {
+          "WebkitAnimationDuration": "0.75s",
+          "WebkitAnimationIterationCount": "infinite",
+          "WebkitAnimationTimingFunction": "linear",
+          "animationDuration": "0.75s",
+          "animationIterationCount": "infinite",
+          "animationTimingFunction": "linear",
+          "height": "36px",
+          "width": "36px",
+        }
+      }
+    >
+      <svg
+        height="100%"
+        viewBox="0 0 32 32"
+        width="100%"
+      >
+        <circle
+          cx="16"
+          cy="16"
+          fill="none"
+          r="14"
+          strokeWidth="4"
+          style={
+            Object {
+              "opacity": 0.2,
+              "stroke": "#1976D2",
+            }
+          }
+        />
+        <circle
+          cx="16"
+          cy="16"
+          fill="none"
+          r="14"
+          strokeWidth="4"
+          style={
+            Object {
+              "stroke": "#1976D2",
+              "strokeDasharray": 80,
+              "strokeDashoffset": 60,
+            }
+          }
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;

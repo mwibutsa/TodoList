@@ -1,0 +1,1003 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TodoList /> Should render a list of tasks correctly 1`] = `
+<RCTScrollView
+  ListHeaderComponent={
+    <Header
+      activeFilterStatus=""
+      loading={false}
+      onFilterTasks={[Function]}
+      tasks={
+        Array [
+          Object {
+            "due_date": "01-01-0001",
+            "id": 1,
+            "name": "Task1",
+            "status": "pending",
+          },
+          Object {
+            "due_date": "01-01-0001",
+            "id": 2,
+            "name": "Task2",
+            "status": "done",
+          },
+        ]
+      }
+    />
+  }
+  data={
+    Array [
+      Object {
+        "due_date": "01-01-0001",
+        "id": 1,
+        "name": "Task1",
+        "status": "pending",
+      },
+      Object {
+        "due_date": "01-01-0001",
+        "id": 2,
+        "name": "Task2",
+        "status": "done",
+      },
+    ]
+  }
+  disableVirtualization={false}
+  getItem={[Function]}
+  getItemCount={[Function]}
+  horizontal={false}
+  initialNumToRender={10}
+  keyExtractor={[Function]}
+  maxToRenderPerBatch={10}
+  onContentSizeChange={[Function]}
+  onEndReachedThreshold={2}
+  onLayout={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  stickyHeaderIndices={Array []}
+  style={
+    Object {
+      "flex": 1,
+      "width": "100%",
+    }
+  }
+  updateCellsBatchingPeriod={50}
+  viewabilityConfigCallbackPairs={Array []}
+  windowSize={21}
+>
+  <View>
+    <View
+      onLayout={[Function]}
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#FF6201",
+            "display": "flex",
+            "height": 150,
+            "justifyContent": "center",
+            "marginBottom": 50,
+            "paddingLeft": 10,
+            "position": "relative",
+            "width": "100%",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Image
+            source={1}
+          />
+          <Text
+            style={
+              Object {
+                "color": "#ffffffff",
+                "fontSize": 30,
+                "fontWeight": "600",
+                "marginLeft": 10,
+              }
+            }
+          >
+            Todo List
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignSelf": "center",
+              "bottom": 0,
+              "display": "flex",
+              "flexDirection": "row",
+              "height": 60,
+              "justifyContent": "space-between",
+              "position": "absolute",
+              "transform": Array [
+                Object {
+                  "translateY": 30,
+                },
+              ],
+              "width": "100%",
+            }
+          }
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderRadius": 2,
+                "display": "flex",
+                "elevation": 3,
+                "flex": 1,
+                "justifyContent": "space-evenly",
+                "marginLeft": 3,
+                "marginRight": 3,
+                "opacity": 1,
+                "padding": 5,
+                "shadowColor": "#CCCCCC",
+                "shadowOffset": Object {
+                  "height": 1,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.25,
+              }
+            }
+            testID="stat-card"
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Image
+                source={1}
+                style={
+                  Object {
+                    "height": 15,
+                    "width": 15,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "color": "#555",
+                    "fontSize": 8,
+                    "fontWeight": "bold",
+                    "marginLeft": 5,
+                    "textTransform": "uppercase",
+                  }
+                }
+              >
+                PENDING
+              </Text>
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "#555",
+                  "fontSize": 18,
+                  "fontWeight": "bold",
+                  "textAlign": "center",
+                }
+              }
+            >
+              1
+            </Text>
+          </View>
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderRadius": 2,
+                "display": "flex",
+                "elevation": 3,
+                "flex": 1,
+                "justifyContent": "space-evenly",
+                "marginLeft": 3,
+                "marginRight": 3,
+                "opacity": 1,
+                "padding": 5,
+                "shadowColor": "#CCCCCC",
+                "shadowOffset": Object {
+                  "height": 1,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.25,
+              }
+            }
+            testID="stat-card"
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Image
+                source={1}
+                style={
+                  Object {
+                    "height": 15,
+                    "width": 15,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "color": "#555",
+                    "fontSize": 8,
+                    "fontWeight": "bold",
+                    "marginLeft": 5,
+                    "textTransform": "uppercase",
+                  }
+                }
+              >
+                IN PROGRESS
+              </Text>
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "#555",
+                  "fontSize": 18,
+                  "fontWeight": "bold",
+                  "textAlign": "center",
+                }
+              }
+            >
+              0
+            </Text>
+          </View>
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderRadius": 2,
+                "display": "flex",
+                "elevation": 3,
+                "flex": 1,
+                "justifyContent": "space-evenly",
+                "marginLeft": 3,
+                "marginRight": 3,
+                "opacity": 1,
+                "padding": 5,
+                "shadowColor": "#CCCCCC",
+                "shadowOffset": Object {
+                  "height": 1,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.25,
+              }
+            }
+            testID="stat-card"
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Image
+                source={1}
+                style={
+                  Object {
+                    "height": 15,
+                    "width": 15,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "color": "#555",
+                    "fontSize": 8,
+                    "fontWeight": "bold",
+                    "marginLeft": 5,
+                    "textTransform": "uppercase",
+                  }
+                }
+              >
+                COMPLETED
+              </Text>
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "#555",
+                  "fontSize": 18,
+                  "fontWeight": "bold",
+                  "textAlign": "center",
+                }
+              }
+            >
+              1
+            </Text>
+          </View>
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#E4E6C3",
+                "borderRadius": 2,
+                "display": "flex",
+                "elevation": 3,
+                "flex": 1,
+                "justifyContent": "space-evenly",
+                "marginLeft": 3,
+                "marginRight": 3,
+                "opacity": 1,
+                "padding": 5,
+                "shadowColor": "#CCCCCC",
+                "shadowOffset": Object {
+                  "height": 1,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.25,
+              }
+            }
+            testID="stat-card"
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Image
+                source={1}
+                style={
+                  Object {
+                    "height": 15,
+                    "width": 15,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "color": "#555",
+                    "fontSize": 8,
+                    "fontWeight": "bold",
+                    "marginLeft": 5,
+                    "textTransform": "uppercase",
+                  }
+                }
+              >
+                ALL
+              </Text>
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "#555",
+                  "fontSize": 18,
+                  "fontWeight": "bold",
+                  "textAlign": "center",
+                }
+              }
+            >
+              2
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ffffffff",
+            "borderRadius": 5,
+            "display": "flex",
+            "elevation": 3,
+            "margin": 10,
+            "marginBottom": 5,
+            "padding": 5,
+            "shadowColor": "#CCCCCC",
+            "shadowOffset": Object {
+              "height": 1,
+              "width": 0,
+            },
+            "shadowOpacity": 0.25,
+          }
+        }
+        testID="list-item"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "margin": 5,
+              "padding": 4,
+            }
+          }
+        >
+          <Image
+            source={1}
+          />
+          <Text
+            style={
+              Object {
+                "color": "#555",
+                "lineHeight": 20,
+                "marginLeft": 10,
+                "textAlign": "justify",
+              }
+            }
+          >
+            Task1
+          </Text>
+        </View>
+        <Text
+          style={
+            Object {
+              "alignSelf": "flex-end",
+              "color": "#6C0E23",
+              "fontSize": 12,
+              "fontStyle": "italic",
+              "marginBottom": 5,
+              "marginRight": 5,
+            }
+          }
+        >
+          Due at 
+          01-01-0001
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ffffffff",
+            "borderRadius": 5,
+            "display": "flex",
+            "elevation": 3,
+            "margin": 10,
+            "marginBottom": 5,
+            "padding": 5,
+            "shadowColor": "#CCCCCC",
+            "shadowOffset": Object {
+              "height": 1,
+              "width": 0,
+            },
+            "shadowOpacity": 0.25,
+          }
+        }
+        testID="list-item"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "margin": 5,
+              "padding": 4,
+            }
+          }
+        >
+          <Image
+            source={1}
+          />
+          <Text
+            style={
+              Object {
+                "color": "#555",
+                "lineHeight": 20,
+                "marginLeft": 10,
+                "textAlign": "justify",
+                "textDecorationLine": "line-through",
+              }
+            }
+          >
+            Task2
+          </Text>
+        </View>
+        <Text
+          style={
+            Object {
+              "alignSelf": "flex-end",
+              "color": "#6C0E23",
+              "fontSize": 12,
+              "fontStyle": "italic",
+              "marginBottom": 5,
+              "marginRight": 5,
+            }
+          }
+        >
+          Due at 
+          01-01-0001
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`<TodoList /> Should render activity indicator 1`] = `
+<View
+  style={
+    Object {
+      "alignContent": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <ActivityIndicator
+    animating={true}
+    color="#999999"
+    hidesWhenStopped={true}
+    size="large"
+  />
+</View>
+`;
+
+exports[`<TodoList /> Should render an error if any 1`] = `
+<View
+  style={
+    Object {
+      "alignContent": "center",
+      "alignItems": "center",
+      "display": "flex",
+      "flex": 1,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#FF6201",
+        "display": "flex",
+        "height": 150,
+        "justifyContent": "center",
+        "marginBottom": 50,
+        "paddingLeft": 10,
+        "position": "relative",
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Image
+        source={1}
+      />
+      <Text
+        style={
+          Object {
+            "color": "#ffffffff",
+            "fontSize": 30,
+            "fontWeight": "600",
+            "marginLeft": 10,
+          }
+        }
+      >
+        Todo List
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignSelf": "center",
+          "bottom": 0,
+          "display": "flex",
+          "flexDirection": "row",
+          "height": 60,
+          "justifyContent": "space-between",
+          "position": "absolute",
+          "transform": Array [
+            Object {
+              "translateY": 30,
+            },
+          ],
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF",
+            "borderRadius": 2,
+            "display": "flex",
+            "elevation": 3,
+            "flex": 1,
+            "justifyContent": "space-evenly",
+            "marginLeft": 3,
+            "marginRight": 3,
+            "opacity": 1,
+            "padding": 5,
+            "shadowColor": "#CCCCCC",
+            "shadowOffset": Object {
+              "height": 1,
+              "width": 0,
+            },
+            "shadowOpacity": 0.25,
+          }
+        }
+        testID="stat-card"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Image
+            source={1}
+            style={
+              Object {
+                "height": 15,
+                "width": 15,
+              }
+            }
+          />
+          <Text
+            style={
+              Object {
+                "color": "#555",
+                "fontSize": 8,
+                "fontWeight": "bold",
+                "marginLeft": 5,
+                "textTransform": "uppercase",
+              }
+            }
+          >
+            PENDING
+          </Text>
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#555",
+              "fontSize": 18,
+              "fontWeight": "bold",
+              "textAlign": "center",
+            }
+          }
+        >
+          0
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF",
+            "borderRadius": 2,
+            "display": "flex",
+            "elevation": 3,
+            "flex": 1,
+            "justifyContent": "space-evenly",
+            "marginLeft": 3,
+            "marginRight": 3,
+            "opacity": 1,
+            "padding": 5,
+            "shadowColor": "#CCCCCC",
+            "shadowOffset": Object {
+              "height": 1,
+              "width": 0,
+            },
+            "shadowOpacity": 0.25,
+          }
+        }
+        testID="stat-card"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Image
+            source={1}
+            style={
+              Object {
+                "height": 15,
+                "width": 15,
+              }
+            }
+          />
+          <Text
+            style={
+              Object {
+                "color": "#555",
+                "fontSize": 8,
+                "fontWeight": "bold",
+                "marginLeft": 5,
+                "textTransform": "uppercase",
+              }
+            }
+          >
+            IN PROGRESS
+          </Text>
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#555",
+              "fontSize": 18,
+              "fontWeight": "bold",
+              "textAlign": "center",
+            }
+          }
+        >
+          0
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF",
+            "borderRadius": 2,
+            "display": "flex",
+            "elevation": 3,
+            "flex": 1,
+            "justifyContent": "space-evenly",
+            "marginLeft": 3,
+            "marginRight": 3,
+            "opacity": 1,
+            "padding": 5,
+            "shadowColor": "#CCCCCC",
+            "shadowOffset": Object {
+              "height": 1,
+              "width": 0,
+            },
+            "shadowOpacity": 0.25,
+          }
+        }
+        testID="stat-card"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Image
+            source={1}
+            style={
+              Object {
+                "height": 15,
+                "width": 15,
+              }
+            }
+          />
+          <Text
+            style={
+              Object {
+                "color": "#555",
+                "fontSize": 8,
+                "fontWeight": "bold",
+                "marginLeft": 5,
+                "textTransform": "uppercase",
+              }
+            }
+          >
+            COMPLETED
+          </Text>
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#555",
+              "fontSize": 18,
+              "fontWeight": "bold",
+              "textAlign": "center",
+            }
+          }
+        >
+          0
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF",
+            "borderRadius": 2,
+            "display": "flex",
+            "elevation": 3,
+            "flex": 1,
+            "justifyContent": "space-evenly",
+            "marginLeft": 3,
+            "marginRight": 3,
+            "opacity": 1,
+            "padding": 5,
+            "shadowColor": "#CCCCCC",
+            "shadowOffset": Object {
+              "height": 1,
+              "width": 0,
+            },
+            "shadowOpacity": 0.25,
+          }
+        }
+        testID="stat-card"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Image
+            source={1}
+            style={
+              Object {
+                "height": 15,
+                "width": 15,
+              }
+            }
+          />
+          <Text
+            style={
+              Object {
+                "color": "#555",
+                "fontSize": 8,
+                "fontWeight": "bold",
+                "marginLeft": 5,
+                "textTransform": "uppercase",
+              }
+            }
+          >
+            ALL
+          </Text>
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#555",
+              "fontSize": 18,
+              "fontWeight": "bold",
+              "textAlign": "center",
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+  <Text>
+    No tasks 
+  </Text>
+</View>
+`;

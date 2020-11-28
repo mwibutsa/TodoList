@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TaskItem /> Should render a completed task 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#ffffffff",
+      "borderRadius": 5,
+      "display": "flex",
+      "elevation": 3,
+      "margin": 10,
+      "marginBottom": 5,
+      "padding": 5,
+      "shadowColor": "#CCCCCC",
+      "shadowOffset": Object {
+        "height": 1,
+        "width": 0,
+      },
+      "shadowOpacity": 0.25,
+    }
+  }
+  testID="list-item"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "margin": 5,
+        "padding": 4,
+      }
+    }
+  >
+    <Image
+      source={1}
+    />
+    <Text
+      style={
+        Object {
+          "color": "#555",
+          "lineHeight": 20,
+          "marginLeft": 10,
+          "textAlign": "justify",
+          "textDecorationLine": "line-through",
+        }
+      }
+    >
+      Task1
+    </Text>
+  </View>
+  <Text
+    style={
+      Object {
+        "alignSelf": "flex-end",
+        "color": "#6C0E23",
+        "fontSize": 12,
+        "fontStyle": "italic",
+        "marginBottom": 5,
+        "marginRight": 5,
+      }
+    }
+  >
+    Due at 
+    01-01-0001
+  </Text>
+</View>
+`;
+
+exports[`<TaskItem /> Should render a pending task 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#ffffffff",
+      "borderRadius": 5,
+      "display": "flex",
+      "elevation": 3,
+      "margin": 10,
+      "marginBottom": 5,
+      "padding": 5,
+      "shadowColor": "#CCCCCC",
+      "shadowOffset": Object {
+        "height": 1,
+        "width": 0,
+      },
+      "shadowOpacity": 0.25,
+    }
+  }
+  testID="list-item"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "margin": 5,
+        "padding": 4,
+      }
+    }
+  >
+    <Image
+      source={1}
+    />
+    <Text
+      style={
+        Object {
+          "color": "#555",
+          "lineHeight": 20,
+          "marginLeft": 10,
+          "textAlign": "justify",
+        }
+      }
+    >
+      Task1
+    </Text>
+  </View>
+  <Text
+    style={
+      Object {
+        "alignSelf": "flex-end",
+        "color": "#6C0E23",
+        "fontSize": 12,
+        "fontStyle": "italic",
+        "marginBottom": 5,
+        "marginRight": 5,
+      }
+    }
+  >
+    Due at 
+    01-01-0001
+  </Text>
+</View>
+`;
+
+exports[`<TaskItem /> Should render an in-progress task 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#ffffffff",
+      "borderRadius": 5,
+      "display": "flex",
+      "elevation": 3,
+      "margin": 10,
+      "marginBottom": 5,
+      "padding": 5,
+      "shadowColor": "#CCCCCC",
+      "shadowOffset": Object {
+        "height": 1,
+        "width": 0,
+      },
+      "shadowOpacity": 0.25,
+    }
+  }
+  testID="list-item"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "margin": 5,
+        "padding": 4,
+      }
+    }
+  >
+    <Image
+      source={1}
+    />
+    <Text
+      style={
+        Object {
+          "color": "#555",
+          "fontWeight": "600",
+          "lineHeight": 20,
+          "marginLeft": 10,
+          "textAlign": "justify",
+        }
+      }
+    >
+      Task1
+    </Text>
+  </View>
+  <Text
+    style={
+      Object {
+        "alignSelf": "flex-end",
+        "color": "#6C0E23",
+        "fontSize": 12,
+        "fontStyle": "italic",
+        "marginBottom": 5,
+        "marginRight": 5,
+      }
+    }
+  >
+    Due at 
+    01-01-0001
+  </Text>
+</View>
+`;

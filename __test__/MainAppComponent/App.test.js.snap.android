@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> Should render a list of tasks correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#E5E5E5",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignContent": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <ActivityIndicator
+      animating={true}
+      color={null}
+      hidesWhenStopped={true}
+      size="large"
+    />
+  </View>
+</View>
+`;
